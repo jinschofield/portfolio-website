@@ -185,119 +185,121 @@ export default function Workshops() {
     <>
       <Seo title="React Hooks Workshop by Greg Bergé" />
       <PageContainer>
-        <SectionTitle>Workshops</SectionTitle>
+        <SectionTitle>Experience</SectionTitle>
         <SectionDescription>
-          A workshop for everyone to learn how to build and scale a{' '}
-          <strong>React</strong> application using <strong>Hooks</strong>.
+          Here are a list of some of my past <strong> experiences</strong> and <strong> awards</strong> .
         </SectionDescription>
         <Card as="section" my={5} overflow="hidden" position="relative">
-          <Logo />
-          <CardHeader pr="40%">
-            <WorkshopTitle>React Hooks</WorkshopTitle>
-            <p>From the creator of Loadable Components, SVGR & Smooth UI.</p>
-          </CardHeader>
           <CardBody>
             <div>
-              <CardTitle>Discover the power of React Hooks</CardTitle>
+              <CardTitle>GPTZero - Intern (May 2023 - August 2023) </CardTitle>
               <p>
-                React Hooks makes your code simpler and improves the sharing
-                logic between your components. It is{' '}
-                <strong>the new recommended way</strong> of coding React
-                applications.
-              </p>
-              <p>
-                I will share with you my experience on a dozen of projects and
-                complex problematics like data-fetching with{' '}
-                <strong>Suspense</strong> and <strong>Code Splitting</strong>.
-                This two-day workshop will give you keys to start and to be
-                powerful.
+              I contributed to product design, lead marketing initiatives, as well as conducted user interviews with target users, relaying recommendations to the design and product teams of GPTZero, an AI edtech start-up with $3.5 million in funding.
               </p>
               <ul>
-                <li>Two days of intense workshop</li>
-                <li>Fundamental & Advanced React concepts</li>
-                <li>Adapted for everyone</li>
-                <li>Courses & exercises included</li>
-                <li>Some code, lots of code!</li>
-                <li>Q/A session with me</li>
+                <li>Worked on the product team to design new features</li>
+                <li>Wrote a weekly newsletter for 45 000 subscribers</li>
+                <li>Conducted product beta tests and user interviews</li>
+                <li>Published blog posts about the progress in AI in education</li>
               </ul>
             </div>
           </CardBody>
         </Card>
-        <Card as="section" my={5}>
+        <Card as="section" my={5} overflow="hidden" position="relative">
           <CardBody>
-            <CardTitle>What will you learn?</CardTitle>
-            <Box row justifyContent="space-around">
-              <Box col={{ xs: 1, md: 'auto' }} as="ul">
-                <li>Fundamentals of React with Hooks</li>
-                <li>Story of Hooks: motivation, patterns</li>
-                <li>State management (avoid redux)</li>
-                <li>Limits of Hooks</li>
-                <li>Think &quot;effect&quot;, not &quot;lifecycle&quot;</li>
-                <li>Compose and share logic</li>
-              </Box>
-              <Box col={{ xs: 1, md: 'auto' }} as="ul">
-                <li>Render-as-You-Fetch with Suspense</li>
-                <li>Performances optimization</li>
-                <li>Animate your UI with Hooks</li>
-                <li>Accessibility and keyboard handling</li>
-                <li>Use-case and usage of Refs</li>
-                <li>Create composable and reusable Hooks</li>
-              </Box>
-            </Box>
+            <div>
+              <CardTitle>Oxford Clinical Research Unit - Data Science Intern (July 2023 - August 2023)</CardTitle>
+              <p>
+              I used descriptive statistics and machine learning algorithms to analyze 300-patient data sets and identify factors contributing to patient outcomes in Hanoi's National Hospital for Tropical Disease. 
+              </p>
+              <ul>
+                <li>Used R to conduct descriptive statistics and multivariate linear and logistic regressions</li>
+                <li>Cleaned and organized 300-patient dataset</li>
+                <li>Shared findings with Oxford University research institutions</li>
+              </ul>
+            </div>
           </CardBody>
         </Card>
-        <Card as="section" my={5}>
+        <Card as="section" my={5} overflow="hidden" position="relative">
           <CardBody>
-            <CardTitle>Who should attend?</CardTitle>
-            <Box row mx={-3} textAlign="justify" fontSize={15}>
-              <Box px={3} col={{ xs: 1, md: 1 / 3 }}>
-                <h4>Beginners</h4>
-                <p>
-                  If you have finished the React tutorial, then you are ready
-                  for this workshop. We will start with React fundamentals using
-                  Hooks. Hooks simplifies things and makes React more accessible
-                  to beginners. The most important is to be comfortable with
-                  JavaScript and web-development itself.
-                </p>
-              </Box>
-              <Box px={3} col={{ xs: 1, md: 1 / 3 }}>
-                <h4>Intermediate</h4>
-                <p>
-                  If you have been working with React in production for a while
-                  and want to level-up, this workshop is perfect. We will start
-                  from basics and explore new things that will make your
-                  developer life simpler. Aside from basics, you will learn how
-                  to organize your code, scale your application and be more
-                  efficient than ever. After these two days, you will have a
-                  clear view on how to compose UI and reuse your code.
-                </p>
-              </Box>
-              <Box px={3} col={{ xs: 1, md: 1 / 3 }}>
-                <h4>Experienced</h4>
-                <p>
-                  If you are already good with React, this workshop will make
-                  you discover Hooks and how to move forward your codebase. You
-                  will be able to exchange on complex problematics and I will
-                  give you the keys to solve them the best way you can. You will
-                  also learn how React is moving, the new features and the
-                  philosophy behind them. You will be able to teach your team at
-                  the end of the workshop.
-                </p>
-              </Box>
-            </Box>
-            <hr />
-            <Reviews avatars={data.avatars} />
-          </CardBody>
-          <CardFooter>
-            <Clients clientLogos={data.clientLogos} />
-          </CardFooter>
-        </Card>
-        <Card as="section" my={5}>
-          <CardBody>
-            <CardTitle>Book a training for your company</CardTitle>
-            <WorkshopForm />
+            <div>
+              <CardTitle>ARiEAL Laboratory, McMaster University - Research Intern (July 2022 - August 2022)</CardTitle>
+              <p>
+              I conducted literature reviews about the event-related potential (ERP) EEG analysis technique when applied to cognitive linguistics EEG experiments.
+              I contributed to the design of research-grade experimentation seeking out how to preserve the teaching of indigenous languages in Ontario.
+              </p>
+              <ul>
+                <li>Identified optimal impedance levels for research-grade EEG use</li>
+                <li>Identified optimal experiment design for syntactic EEG P600 experimentation</li>
+                <li>Helped design and conduct pilot study</li>
+              </ul>
+            </div>
           </CardBody>
         </Card>
+        <Card as="section" my={5} overflow="hidden" position="relative">
+          <CardBody>
+            <div>
+              <CardTitle>Hybrid Biomedical Optics Laboratory at York University - Student Researcher (June 2021 - August 2021)</CardTitle>
+              <p>
+              I interned to help in the creation of an immunoassay bodily fluid THC detection device.
+              </p>
+              <ul>
+                <li>Manipulated back-end C++ code of SeekThermal infrared cameras</li>
+                <li>Used Python to help design and program an interactive user interface prototype for the THC detection device</li>
+                <li>Researched C++ libraries for next steps in device development</li>
+              </ul>
+            </div>
+          </CardBody>
+        </Card>
+        <Card as="section" my={5} overflow="hidden" position="relative">
+          <CardBody>
+            <div>
+              <CardTitle>Princeton University Neurotech Club - President (October 2022 - Present) </CardTitle>
+              <p>
+              I am president of Princeton University's Neurotech Club.
+              </p>
+              <ul>
+                <li>3D-prints and assembles 16-channel OpenBCI EEG device </li>
+                <li>Tinkers with Muse headsets</li>
+                <li>Hosts wokshops, lessons, and get-togethers</li>
+              </ul>
+            </div>
+          </CardBody>
+        </Card>
+        <Card as="section" my={5} overflow="hidden" position="relative">
+          <CardBody>
+            <div>
+              <CardTitle>Other Princeton University Extracurriculars </CardTitle>
+              <ul>
+                <li>Princeton AI Club - Officer</li>
+                <li>Princeton Blockchain Club - Officer</li>
+                <li>Prospect Student Ventures - Analyst</li>
+                <li>Bioventures Alimtas - Member</li>
+                <li>Entrepreneuriship Club: Forge - Member</li>
+              </ul>
+            </div>
+          </CardBody>
+        </Card>
+        <Card as="section" my={5} overflow="hidden" position="relative">
+          <CardBody>
+            <div>
+              <CardTitle>Awards</CardTitle>
+              <ul>
+                <li>Finalist at Princeton 2023 Pitch Competition (April 2023)</li>
+                <li>1st place at Junior Achievement Americas (Competed Against 21 Nationally-Placing Teams from 11 countries), International</li>
+                <li>$10 000 Youth Impact Challenge Winner (August 2021), National</li>
+                <li>$5000 DMZ Basecamp Champion (August 2020), International</li>
+                <li>Canada-Wide Science Fair, Winner of Silver Excellence in Senior category, UofT Engineering Award ($1000 Prize; $11 000 in scholarships)</li>
+                <li>1st Place HOSA Nationals FLC in Medical Innovation (December 2020), National</li>
+                <li>Best Pitch - RBC Ideathon Pitch Competition (August 2019)</li>
+                <li>Winner - The University of Toronto's Women in Science and Engineering Design Competition </li>
+              </ul>
+            </div>
+          </CardBody>
+        </Card>
+        
+        
+        
       </PageContainer>
     </>
   )

@@ -99,52 +99,5 @@ export function Newsletter() {
     })
   }
 
-  return (
-    <Container my={6}>
-      <Form onSubmit={handleSubmit}>
-        {({ handleSubmit, submitting, submitSucceeded }) => (
-          <form noValidate onSubmit={handleSubmit}>
-            {submitSucceeded ? (
-              <Success>{t.success}</Success>
-            ) : (
-              <>
-                <Teaser>{t.teaser}</Teaser>
-                <FormLayout>
-                  <Box py={2} px={3}>
-                    <InputField
-                      name="FNAME"
-                      label={t.firstName}
-                      placeholder="Hubert"
-                    />
-                  </Box>
-                  <Box py={2} px={3}>
-                    <InputField
-                      name="EMAIL"
-                      label="Email"
-                      type="email"
-                      placeholder="hubert@oss.com"
-                      required
-                      validate={mustBeEmail}
-                    />
-                  </Box>
-                  <Box
-                    display="flex"
-                    flexDirection="column"
-                    justifyContent="flex-end"
-                    flex="1 0 auto"
-                    py={2}
-                    px={3}
-                  >
-                    <Button type="submit" disabled={submitting}>
-                      {submitting ? t.submitting : t.submit}
-                    </Button>
-                  </Box>
-                </FormLayout>
-              </>
-            )}
-          </form>
-        )}
-      </Form>
-    </Container>
-  )
+  return null;
 }

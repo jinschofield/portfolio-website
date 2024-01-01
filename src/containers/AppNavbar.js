@@ -12,7 +12,7 @@ const locales = {
   en: {
     about: 'About',
     blog: 'Blog',
-    workshops: 'Workshops',
+    workshops: 'Experiences',
     projects: 'Projects',
   },
   fr: {
@@ -29,14 +29,11 @@ export function AppNavbar() {
   return (
     <Navbar>
       <NavbarBrandLink as={I18nLink} to="/">
-        <NavbarBrand>Greg Bergé</NavbarBrand>
+        <NavbarBrand>Jin Schofield</NavbarBrand>
       </NavbarBrandLink>
       <NavbarSecondary>
         <NavbarLink as={I18nLink} to="/about">
           {t.about}
-        </NavbarLink>
-        <NavbarLink as={I18nLink} to="/blog">
-          {t.blog}
         </NavbarLink>
         <NavbarLink as={I18nLink} to="/workshops">
           {t.workshops}
@@ -44,7 +41,11 @@ export function AppNavbar() {
         <NavbarLink as={I18nLink} to="/projects">
           {t.projects}
         </NavbarLink>
+        <NavbarLink as={I18nLink} to="/blog">
+          {t.blog}
+        </NavbarLink>
       </NavbarSecondary>
     </Navbar>
   )
 }
+

@@ -3,13 +3,12 @@ import { useStaticQuery, graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 import { Location } from '@reach/router'
 import { useLangKey } from '../components/I18nContext'
-import defaultImage from '../images/social.jpg'
 import { SchemaOrg } from './SchemaOrg'
 
 const locales = {
   en: {
     description:
-      'The personal website of Greg Bergé. Learn and level-up about React & JavaScript.',
+      'The personal website of Jin Schofield.',
   },
   fr: {
     description:
@@ -41,7 +40,7 @@ export function Seo({
 
   const title = customTitle || 'Greg Bergé'
   const description = customDescription || t.description
-  const image = customImage || defaultImage
+  const image = customImage
 
   return (
     <Location>

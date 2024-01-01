@@ -67,7 +67,7 @@ export const HeroTeaser = styled.p`
 
 export function Hero({ children }) {
   return (
-    <PageContainer as="section" minHeight="85vh">
+    <PageContainer as="section" minHeight="65vh">
       <Dots />
       <MixBackground />
       <Container position="relative">{children}</Container>

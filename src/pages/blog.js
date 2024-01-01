@@ -8,14 +8,14 @@ import { Seo } from '../containers/Seo'
 export default function Blog({ data }) {
   return (
     <>
-      <Seo title="Greg Bergé — Blog" />
+      <Seo title="Jin Schofield — Blog" />
       <PageContainer>
         <SectionTitle>Blog</SectionTitle>
         <SectionDescription>
-          I write about React, JavaScript and how to solve problems. Enjoy your
-          read!
+          Check out my current substack blog <a href="https://jinschofield.substack.com/"><strong><u>here</u></strong></a>.
+          <br></br><br></br>
+          You can also check out my old personal website <a href="https://jinschofield.wordpress.com/"><strong><u>here</u></strong></a> (it has a lot of creative writing and a map of where I've travelled!) and an archive of my old blog posts <a href="https://drive.google.com/drive/folders/1wV2xIEoVyFOZ-db18BvUNSKjrN4PCMk0?usp=drive_link"><strong><u>here</u></strong></a>!
         </SectionDescription>
-        <LatestArticles edges={data.allMdx.edges} />
       </PageContainer>
     </>
   )

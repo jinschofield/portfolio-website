@@ -5,27 +5,29 @@ import { Container } from '../components/Container'
 import { Hero, HeroIntro, HeroTitle, HeroTeaser } from '../containers/Hero'
 import { LatestArticles } from '../containers/LatestArticles'
 import { Seo } from '../containers/Seo'
+import AboutPage from './about'
+import WorkshopPage from './workshops'
+import ProjectsPage from './projects'
+import BlogPage from './blog'
 
 export default function IndexPage({ data }) {
   return (
     <>
       <Hero>
         <Seo />
-        <HeroIntro>Hi, my name is</HeroIntro>
+        <HeroIntro>Hi there! I'm </HeroIntro>
         <HeroTitle>
-          <strong>Greg Bergé.</strong>
-          <br />I help people make the web great.
+          <strong>Jin Schofield.</strong>
+          <br />I'm chasing my curiosity.
         </HeroTitle>
         <HeroTeaser>
-          I am a software engineer based in Paris. I create tools and teach how
-          to build high quality websites and applications using JavaScript and
-          React.
+          I'm a computer science student at Princeton. I'm fascinated by how AI, neurotechnology, and AR will impact the future.
         </HeroTeaser>
       </Hero>
-      <Container as="section" pb={5}>
-        <SectionTitle as="h2">Blog</SectionTitle>
-        <LatestArticles edges={data.allMdx.edges} />
-      </Container>
+      <AboutPage />
+      <WorkshopPage />
+      <ProjectsPage />
+      <BlogPage /> 
     </>
   )
 }

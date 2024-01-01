@@ -336,77 +336,73 @@ function Projects({ data, projects }) {
     <ProjectTemplate
       logo={logos['smooth-doc']}
       label={projects['smooth-doc'].label}
-      title="Smooth DOC"
-      npm="smooth-doc"
-      url="https://smooth-doc.com"
+      title="ConchShell"
+      url="https://projectboard.world/ysc/project/conchshell-a-wearable-asl-translator-leveraging-novel-machine-learning-and-computer-vision"
       color="#667EEA"
       description={projects['smooth-doc'].description}
-      tags={['Gatsby', 'docs', 'theme', 'templates']}
+      tags={['PyTorch', 'MediaPipe', 'Python', 'Raspberry Pi']}
+      stats={false}
     />,
     <ProjectTemplate
       logo={logos.svgr}
       label={projects.svgr.label}
-      title="SVGR"
-      npm="@svgr/core"
-      github="https://github.com/gregberge/svgr"
-      url="https://react-svgr.com"
+      title="AIstotle"
+      url="https://devpost.com/software/aistotle"
       color="#FF921B"
       description={projects.svgr.description}
-      tags={['React', 'AST', 'Babel', 'create-react-app']}
+      tags={['GPT-4', 'GPT-4 Vision', 'RAG', 'ElevenLabs']}
+      stats={false}
     />,
     <ProjectTemplate
       logo={logos['loadable-components']}
       label={projects['loadable-components'].label}
-      title="Loadable Components"
-      npm="@loadable/component"
-      github="https://github.com/gregberge/loadable-components"
-      url="https://loadable-components.com"
+      title="Determinants of Patient Outcomes of Blood Infections at the National Hospital of Tropical Disease"
+      url="https://docs.google.com/document/d/1EfsoacVy-M_9rz7G0RSBWi4ILDxNI2zdcRU4w8KmXQk/edit?usp=sharing"
       color="#fff"
       description={projects['loadable-components'].description}
-      tags={['React', 'Code Splitting', 'webpack', 'rollup']}
+      tags={['R', 'Multivariate Linear Regression', 'Descriptive Statistics', 'Data Science']}
+      stats={false}
     />,
     <ProjectTemplate
       logo={logos.xstyled}
       label={projects.xstyled.label}
-      title="xstyled"
+      title="The Rise of Allergies: An Investigation on Why It Is Occurring and How to Stop It"
       npm="@xstyled/system"
-      github="https://github.com/smooth-code/xstyled"
-      url="https://www.smooth-code.com/open-source/xstyled/"
+      url="https://docs.google.com/document/d/1Fhql1ublvUhtkUOrgq_cgj34XomJ5IEv/edit?usp=sharing&ouid=101433469914745476431&rtpof=true&sd=true"
       color="#D646AA"
       description={projects.xstyled.description}
-      tags={['React', 'CSS-in-JS', 'Styled Components', 'emotion']}
+      tags={['SPSS', 'Multivariate Linear Regression', 'Multivariate Logistic Regression']}
+      stats={false}
     />,
     <ProjectTemplate
       logo={logos['smooth-ui']}
       label={projects['smooth-ui'].label}
-      title="Smooth UI"
+      title="An Assessment of the Significance of Various Air Pollutants on Public Health on a Global Scale"
       npm="@smooth-ui/core-sc"
-      github="https://github.com/smooth-code/smooth-ui"
-      url="https://www.smooth-code.com/open-source/smooth-ui/"
+      url="https://docs.google.com/document/d/15BErTM7eFen6zMz1GCEUHwk_cPpiVSYeIsSp7vlfWN8/edit?usp=sharing"
       color="#E00348"
       description={projects['smooth-ui'].description}
-      tags={['React', 'UI Library']}
+      tags={['Multivariate Linear Regression', 'Descriptive Statistics']}
+      stats={false}
     />,
     <ProjectTemplate
       logo={logos.jamtemplates}
       label={projects.jamtemplates.label}
-      title="JamTemplates"
-      github="https://github.com/gregberge/jamtemplates.com"
-      url="https://jamtemplates.com"
+      title=" Determinants of Views on Euthanasia in Richmond Hill, Ontario"
+      url="https://docs.google.com/document/d/1iwryTkbSZ3aF6C52MKYuzH9R3HkBWuDatyrbmym9WsM/edit?usp=sharing"
       color="#8aa5ff"
       description={projects.jamtemplates.description}
-      tags={['Gatsby', 'themes', 'templates']}
+      tags={['Multivariate Linear Regression', 'Descriptive Statistics']}
       stats={false}
     />,
+    /*
     <ProjectTemplate
       logo={logos['bundle-analyzer']}
       label={projects['bundle-analyzer'].label}
       title="Bundle Analyzer"
-      github="https://github.com/smooth-code/bundle-analyzer"
-      url="https://www.bundle-analyzer.com"
       color="#097dea"
       description={projects['bundle-analyzer'].description}
-      tags={['Node.js', 'automation', 'devops']}
+      tags={[' ', ' ', ' ']}
       stats={false}
     />,
     <ProjectTemplate
@@ -414,23 +410,21 @@ function Projects({ data, projects }) {
       label={projects['jest-puppeteer'].label}
       title="Jest Puppeteer"
       npm="jest-puppeteer"
-      github="https://github.com/smooth-code/jest-puppeteer"
-      url="https://github.com/smooth-code/jest-puppeteer"
       color="#FF5600"
       description={projects['jest-puppeteer'].description}
-      tags={['Node.js', 'Jest', 'Puppeteer', 'E2E Testing']}
+      tags={[' ', ' ', ' ']}
+      stats={false}
     />,
     <ProjectTemplate
       logo={logos.shipit}
       label={projects.shipit.label}
       title="Shipit"
       npm="shipit-cli"
-      github="https://github.com/shipitjs/shipit"
-      url="https://github.com/shipitjs/shipit"
       color="#FBA919"
       description={projects.shipit.description}
-      tags={['Node.js', 'automation', 'devops']}
-    />,
+      tags={[' ', ' ', ' ']}
+      stats={false}
+    />*/ ,
   ]
   return (
     <Box mt={5} row mb={{ xs: -4, md: -5 }}>
@@ -464,7 +458,7 @@ export function ProjectsPageTemplate({ title, intro, projects }) {
   `)
   return (
     <>
-      <Seo title={`Greg Bergé — ${title}`} />
+      <Seo title={`Jin Schofield — ${title}`} />
       <PageContainer>
         <SectionTitle>{title}</SectionTitle>
         <SectionDescription>{intro}</SectionDescription>

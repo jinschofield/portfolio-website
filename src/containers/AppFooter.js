@@ -57,41 +57,21 @@ export function AppFooter() {
   const t = locales[langKey]
   return (
     <Container display="flex" alignItems="center" mt={4} pb={4}>
-      <Copyright>Greg Bergé © {currentYear}</Copyright>
+      <Copyright>Inspired by Greg Bergé</Copyright>
       <Socials>
-        <Location>
-          {({ location }) => (
-            <>
-              {langKey === 'en' && (
-                <SocialLink title="French" as={Link} to={toFrench(location)}>
-                  <Box as="span" fontSize={20} role="img" aria-label="French">
-                    🇫🇷
-                  </Box>
-                </SocialLink>
-              )}
-              {langKey === 'fr' && (
-                <SocialLink title="English" as={Link} to={toEnglish(location)}>
-                  <Box as="span" fontSize={20} role="img" aria-label="Anglais">
-                    🇬🇧
-                  </Box>
-                </SocialLink>
-              )}
-            </>
-          )}
-        </Location>
-        <SocialLink title={t.twitter} href="https://twitter.com/gregberge_">
+        <SocialLink title={t.twitter} href="https://twitter.com/jinschofield">
           <FaTwitter />
         </SocialLink>
-        <SocialLink title={t.github} href="https://github.com/gregberge">
+        <SocialLink title={t.github} href="https://github.com/jinschofield">
           <FaGithub />
         </SocialLink>
         <SocialLink
           title={t.linkedin}
-          href="https://www.linkedin.com/in/gregberge"
+          href="https://www.linkedin.com/in/jin-schofield/"
         >
           <FaLinkedin />
         </SocialLink>
-        <SocialLink title={t.email} href="mailto:hey@gregberge.com">
+        <SocialLink title={t.email} href="mailto:jinschofield@gmail.com">
           <FaEnvelope />
         </SocialLink>
       </Socials>

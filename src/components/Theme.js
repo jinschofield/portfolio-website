@@ -10,8 +10,8 @@ import { transparentize } from 'polished'
 
 const theme = {
   ...defaultTheme,
-  initialColorModeName: 'dark',
-  defaultColorModeName: 'dark',
+  initialColorModeName: 'light',
+  defaultColorModeName: 'light',
   space: [0, 4, 8, 16, 24, 48, 96, 144, 192, 240],
   fonts: {
     serif: 'Georgia, serif',

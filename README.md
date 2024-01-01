@@ -1,3 +1,1 @@
-# Greg Bergé personal website
-
-[👉 Check it out](https://gregberge.com/)
+This is code heavily inspired by Greg Berge for my personal website.

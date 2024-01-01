@@ -40,16 +40,20 @@ export const AboutText = styled(Container)`
 
 const ImageContainer = styled.div`
   position: relative;
+  width: 700px;
+  margin: 0 auto
 `
 
 const MaskedImg = styled(Img)`
   mask-image: linear-gradient(
     to right,
     transparent 0%,
-    black 30%,
-    black 70%,
+    black 0%,
+    black 100%,
     transparent 100%
   );
+  border: 2px solid darkgrey; // Change this line
+  border-radius: 30%;
 `
 
 const Shadow = styled.div`
