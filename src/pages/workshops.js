@@ -192,7 +192,7 @@ export default function Workshops() {
         <Card as="section" my={5} overflow="hidden" position="relative">
           <CardBody>
             <div>
-              <CardTitle>GPTZero - Intern (May 2023 - August 2023) </CardTitle>
+              <CardTitle>GPTZero - Product Intern (May 2023 - August 2023) </CardTitle>
               <p>
               I contributed to product design, lead marketing initiatives, as well as conducted user interviews with target users, relaying recommendations to the design and product teams of GPTZero, an AI edtech start-up with $3.5 million in funding.
               </p>
