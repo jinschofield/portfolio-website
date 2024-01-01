@@ -275,7 +275,7 @@ export default function Workshops() {
                 <li>Princeton Blockchain Club - Officer</li>
                 <li>Prospect Student Ventures - Analyst</li>
                 <li>Bioventures Alimtas - Member</li>
-                <li>Entrepreneuriship Club: Forge - Member</li>
+                <li>Entrepreneurship Club: Forge - Member</li>
               </ul>
             </div>
           </CardBody>
