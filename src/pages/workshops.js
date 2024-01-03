@@ -192,7 +192,7 @@ export default function Workshops() {
         <Card as="section" my={5} overflow="hidden" position="relative">
           <CardBody>
             <div>
-              <CardTitle>GPTZero - Product Intern (May 2023 - August 2023) </CardTitle>
+              <CardTitle>Product Intern - GPTZero AI(May 2023 - August 2023) </CardTitle>
               <p>
               I contributed to product design, lead marketing initiatives, as well as conducted user interviews with target users, relaying recommendations to the design and product teams of GPTZero, an AI edtech start-up with $3.5 million in funding.
               </p>
@@ -208,7 +208,7 @@ export default function Workshops() {
         <Card as="section" my={5} overflow="hidden" position="relative">
           <CardBody>
             <div>
-              <CardTitle>Oxford Clinical Research Unit - Data Science Intern (July 2023 - August 2023)</CardTitle>
+              <CardTitle>Data Science Intern - Oxford Clinical Research Unit (July 2023 - August 2023)</CardTitle>
               <p>
               I used descriptive statistics and machine learning algorithms to analyze 300-patient data sets and identify factors contributing to patient outcomes in Hanoi's National Hospital for Tropical Disease. 
               </p>
@@ -223,7 +223,7 @@ export default function Workshops() {
         <Card as="section" my={5} overflow="hidden" position="relative">
           <CardBody>
             <div>
-              <CardTitle>ARiEAL Laboratory, McMaster University - Research Intern (July 2022 - August 2022)</CardTitle>
+              <CardTitle>Research Intern - ARiEAL Laboratory, McMaster University(July 2022 - August 2022)</CardTitle>
               <p>
               I conducted literature reviews about the event-related potential (ERP) EEG analysis technique when applied to cognitive linguistics EEG experiments.
               I contributed to the design of research-grade experimentation seeking out how to preserve the teaching of indigenous languages in Ontario.
@@ -239,7 +239,7 @@ export default function Workshops() {
         <Card as="section" my={5} overflow="hidden" position="relative">
           <CardBody>
             <div>
-              <CardTitle>Hybrid Biomedical Optics Laboratory at York University - Student Researcher (June 2021 - August 2021)</CardTitle>
+              <CardTitle>Software Development Intern - Hybrid Biomedical Optics Laboratory at York University (June 2021 - August 2021)</CardTitle>
               <p>
               I interned to help in the creation of an immunoassay bodily fluid THC detection device.
               </p>
@@ -254,7 +254,7 @@ export default function Workshops() {
         <Card as="section" my={5} overflow="hidden" position="relative">
           <CardBody>
             <div>
-              <CardTitle>Princeton University Neurotech Club - President (October 2022 - Present) </CardTitle>
+              <CardTitle>President - Princeton University Neurotech Club (October 2022 - Present) </CardTitle>
               <p>
               I am president of Princeton University's Neurotech Club.
               </p>
