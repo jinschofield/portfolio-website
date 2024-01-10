@@ -208,7 +208,7 @@ export default function Workshops() {
         <Card as="section" my={5} overflow="hidden" position="relative">
           <CardBody>
             <div>
-              <CardTitle>Data Science and Machine Learning Intern - Oxford Clinical Research Unit (July 2023 - August 2023)</CardTitle>
+              <CardTitle>Data Science and Machine Learning Intern - Oxford University Clinical Research Unit (July 2023 - August 2023)</CardTitle>
               <p>
               I used descriptive statistics and machine learning algorithms to analyze 300-patient data sets and identify factors contributing to patient outcomes in Hanoi's National Hospital for Tropical Disease. 
               </p>
